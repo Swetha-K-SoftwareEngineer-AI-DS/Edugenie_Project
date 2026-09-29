@@ -7,9 +7,7 @@
 // Global State & Configuration
 // ============================================================================
 const CONFIG = {
-    API_BASE: window.location.origin.includes('localhost') || window.location.origin.includes('127.0.0.1')
-        ? '' // Same origin when served by FastAPI
-        : 'http://127.0.0.1:8000'
+    API_BASE: ''
 };
 
 const STATE = {
