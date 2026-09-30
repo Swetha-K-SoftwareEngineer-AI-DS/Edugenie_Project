@@ -9,7 +9,6 @@
 const CONFIG = {
     API_BASE: ''
 };
-
 const STATE = {
     currentView: 'home',
     activeQuiz: null,            // Holds generated quiz data
